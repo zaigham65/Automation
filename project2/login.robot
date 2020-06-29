@@ -1,7 +1,7 @@
 *** Settings ***
 Library           SeleniumLibrary
 
-*** Test Cases ***
+*** Keywords ***
 Login Facebook
     Open Browser    http://www.facebook.com    chrome
     Wait Until Page Contains    Log In
