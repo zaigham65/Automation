@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.5.3 on win32)" rpa="false" generated="20200629 16:35:29.408">
+<suite name="Suite2" source="C:\Users\Amina\mobile_testing\project1\project2\suite2.robot" id="s1">
+<test name="tc1" id="s1-t1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.facebook.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200629 16:35:30.506" level="INFO">Opening browser 'chrome' to base url 'http://www.facebook.com'.</msg>
+<status starttime="20200629 16:35:30.506" endtime="20200629 16:36:13.145" status="PASS"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Log In</arg>
+</arguments>
+<status starttime="20200629 16:36:13.145" endtime="20200629 16:36:13.185" status="PASS"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status starttime="20200629 16:36:13.189" endtime="20200629 16:36:17.329" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@name="firstname"]</arg>
+<arg>abbas</arg>
+</arguments>
+<msg timestamp="20200629 16:36:17.333" level="INFO">Typing text 'abbas' into text field 'xpath=//*[@name="firstname"]'.</msg>
+<status starttime="20200629 16:36:17.329" endtime="20200629 16:36:17.601" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@name="lastname"]</arg>
+<arg>zaigham</arg>
+</arguments>
+<msg timestamp="20200629 16:36:17.601" level="INFO">Typing text 'zaigham' into text field 'xpath=//*[@name="lastname"]'.</msg>
+<status starttime="20200629 16:36:17.601" endtime="20200629 16:36:17.875" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@name="reg_email__"]</arg>
+<arg>zaigh@gmail.com</arg>
+</arguments>
+<msg timestamp="20200629 16:36:17.875" level="INFO">Typing text 'zaigh@gmail.com' into text field 'xpath=//*[@name="reg_email__"]'.</msg>
+<status starttime="20200629 16:36:17.875" endtime="20200629 16:36:18.236" status="PASS"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@name="reg_passwd__"]</arg>
+<arg>mmiissuuu</arg>
+</arguments>
+<msg timestamp="20200629 16:36:18.236" level="INFO">Typing password into text field 'xpath=//*[@name="reg_passwd__"]'.</msg>
+<msg timestamp="20200629 16:36:18.328" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20200629 16:36:18.523" level="INFO">Log level changed from NONE to INFO.</msg>
+<status starttime="20200629 16:36:18.236" endtime="20200629 16:36:18.523" status="PASS"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>xpath=//select[@id="month"]</arg>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200629 16:36:18.527" level="INFO">Selecting options from selection list 'xpath=//select[@id="month"]' by value 3.</msg>
+<status starttime="20200629 16:36:18.527" endtime="20200629 16:36:18.756" status="PASS"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>xpath=//*[@id="day"]</arg>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200629 16:36:18.756" level="INFO">Selecting options from selection list 'xpath=//*[@id="day"]' by value 3.</msg>
+<status starttime="20200629 16:36:18.756" endtime="20200629 16:36:18.979" status="PASS"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>xpath=//*[@id="year"]</arg>
+<arg>1985</arg>
+</arguments>
+<msg timestamp="20200629 16:36:18.979" level="INFO">Selecting options from selection list 'xpath=//*[@id="year"]' by value 1985.</msg>
+<status starttime="20200629 16:36:18.979" endtime="20200629 16:36:19.225" status="PASS"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@name='sex' and @value=2]</arg>
+</arguments>
+<msg timestamp="20200629 16:36:19.225" level="INFO">Clicking element 'xpath=//*[@name='sex' and @value=2]'.</msg>
+<status starttime="20200629 16:36:19.225" endtime="20200629 16:36:19.364" status="PASS"></status>
+</kw>
+<status starttime="20200629 16:35:30.504" endtime="20200629 16:36:19.364" critical="yes" status="PASS"></status>
+</test>
+<test name="tc2" id="s1-t2">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://blazedemo.com/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20200629 16:36:19.368" level="INFO">Opening browser 'Chrome' to base url 'http://blazedemo.com/'.</msg>
+<status starttime="20200629 16:36:19.368" endtime="20200629 16:36:29.427" status="PASS"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>xpath://select[@name='fromPort']</arg>
+<arg>Paris</arg>
+</arguments>
+<msg timestamp="20200629 16:36:29.427" level="INFO">Selecting options from selection list 'xpath://select[@name='fromPort']' by value Paris.</msg>
+<status starttime="20200629 16:36:29.427" endtime="20200629 16:36:29.543" status="PASS"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>xpath://select[@name='toPort']</arg>
+<arg>London</arg>
+</arguments>
+<msg timestamp="20200629 16:36:29.543" level="INFO">Selecting options from selection list 'xpath://select[@name='toPort']' by value London.</msg>
+<status starttime="20200629 16:36:29.543" endtime="20200629 16:36:29.693" status="PASS"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>css:input[type='submit']</arg>
+</arguments>
+<msg timestamp="20200629 16:36:29.698" level="INFO">Clicking button 'css:input[type='submit']'.</msg>
+<status starttime="20200629 16:36:29.698" endtime="20200629 16:36:30.985" status="PASS"></status>
+</kw>
+<kw name="Get WebElements" library="SeleniumLibrary">
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<arguments>
+<arg>css:table[class='table']&gt;tbody tr</arg>
+</arguments>
+<assign>
+<var>@{flights}</var>
+</assign>
+<msg timestamp="20200629 16:36:31.035" level="INFO">@{flights} = [ &lt;selenium.webdriver.remote.webelement.WebElement (session="0ddb71cab109753824523ee88cbbeef8", element="0.23279360356914114-1")&gt; | &lt;selenium.webdriver.remote.webelement.WebElement (session="0ddb71cab...</msg>
+<status starttime="20200629 16:36:30.985" endtime="20200629 16:36:31.035" status="PASS"></status>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<doc>Verifies that the given item is not empty.</doc>
+<arguments>
+<arg>${flights}</arg>
+</arguments>
+<msg timestamp="20200629 16:36:31.039" level="INFO">Length is 5</msg>
+<status starttime="20200629 16:36:31.035" endtime="20200629 16:36:31.039" status="PASS"></status>
+</kw>
+<status starttime="20200629 16:36:19.368" endtime="20200629 16:36:31.039" critical="yes" status="PASS"></status>
+</test>
+<test name="tc3" id="s1-t3">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.facebook.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200629 16:36:31.047" level="INFO">Opening browser 'chrome' to base url 'http://www.facebook.com'.</msg>
+<status starttime="20200629 16:36:31.043" endtime="20200629 16:36:43.332" status="PASS"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Log In</arg>
+</arguments>
+<status starttime="20200629 16:36:43.332" endtime="20200629 16:36:43.996" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>email</arg>
+<arg>zaigham227440@gmail.com</arg>
+</arguments>
+<msg timestamp="20200629 16:36:43.996" level="INFO">Typing text 'zaigham227440@gmail.com' into text field 'email'.</msg>
+<status starttime="20200629 16:36:43.996" endtime="20200629 16:36:44.393" status="PASS"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>pass</arg>
+<arg>mmiissuu</arg>
+</arguments>
+<msg timestamp="20200629 16:36:44.397" level="INFO">Typing password into text field 'pass'.</msg>
+<msg timestamp="20200629 16:36:44.472" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20200629 16:36:44.608" level="INFO">Log level changed from NONE to INFO.</msg>
+<status starttime="20200629 16:36:44.397" endtime="20200629 16:36:44.608" status="PASS"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>Log In</arg>
+</arguments>
+<msg timestamp="20200629 16:36:44.608" level="INFO">Clicking button 'Log In'.</msg>
+<status starttime="20200629 16:36:44.608" endtime="20200629 16:36:44.789" status="PASS"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>zaigham abbas</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200629 16:37:45.407" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status starttime="20200629 16:37:44.852" endtime="20200629 16:37:45.407" status="PASS"></status>
+</kw>
+<msg timestamp="20200629 16:37:46.049" level="FAIL">Text 'zaigham abbas' did not appear in 5 seconds.</msg>
+<status starttime="20200629 16:36:44.789" endtime="20200629 16:37:46.049" status="FAIL"></status>
+</kw>
+<status starttime="20200629 16:36:31.043" endtime="20200629 16:37:46.051" critical="yes" status="FAIL">Text 'zaigham abbas' did not appear in 5 seconds.</status>
+</test>
+<test name="tc4" id="s1-t4">
+<kw name="Login Facebook" library="login">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.facebook.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200629 16:37:46.054" level="INFO">Opening browser 'chrome' to base url 'http://www.facebook.com'.</msg>
+<status starttime="20200629 16:37:46.054" endtime="20200629 16:38:13.340" status="PASS"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Log In</arg>
+</arguments>
+<status starttime="20200629 16:38:13.344" endtime="20200629 16:38:14.022" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>email</arg>
+<arg>zaigham227440@gmail.com</arg>
+</arguments>
+<msg timestamp="20200629 16:38:14.022" level="INFO">Typing text 'zaigham227440@gmail.com' into text field 'email'.</msg>
+<status starttime="20200629 16:38:14.022" endtime="20200629 16:38:14.422" status="PASS"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>pass</arg>
+<arg>mmiissuu</arg>
+</arguments>
+<msg timestamp="20200629 16:38:14.422" level="INFO">Typing password into text field 'pass'.</msg>
+<msg timestamp="20200629 16:38:14.498" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20200629 16:38:14.650" level="INFO">Log level changed from NONE to INFO.</msg>
+<status starttime="20200629 16:38:14.422" endtime="20200629 16:38:14.650" status="PASS"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>Log In</arg>
+</arguments>
+<msg timestamp="20200629 16:38:14.654" level="INFO">Clicking button 'Log In'.</msg>
+<status starttime="20200629 16:38:14.654" endtime="20200629 16:38:14.848" status="PASS"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>facebook</arg>
+</arguments>
+<status starttime="20200629 16:38:14.852" endtime="20200629 16:39:44.483" status="PASS"></status>
+</kw>
+<status starttime="20200629 16:37:46.054" endtime="20200629 16:39:44.483" status="PASS"></status>
+</kw>
+<status starttime="20200629 16:37:46.053" endtime="20200629 16:39:44.483" critical="yes" status="PASS"></status>
+</test>
+<test name="tc5" id="s1-t5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.facebook.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200629 16:39:44.486" level="INFO">Opening browser 'chrome' to base url 'http://www.facebook.com'.</msg>
+<status starttime="20200629 16:39:44.486" endtime="20200629 16:40:28.776" status="PASS"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Log In</arg>
+</arguments>
+<status starttime="20200629 16:40:28.776" endtime="20200629 16:40:30.576" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>email</arg>
+<arg>zaigham227440@gmail.com</arg>
+</arguments>
+<msg timestamp="20200629 16:40:30.576" level="INFO">Typing text 'zaigham227440@gmail.com' into text field 'email'.</msg>
+<status starttime="20200629 16:40:30.576" endtime="20200629 16:40:31.115" status="PASS"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>pass</arg>
+<arg>kkkjhhggf</arg>
+</arguments>
+<msg timestamp="20200629 16:40:31.119" level="INFO">Typing password into text field 'pass'.</msg>
+<msg timestamp="20200629 16:40:31.210" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20200629 16:40:31.366" level="INFO">Log level changed from NONE to INFO.</msg>
+<status starttime="20200629 16:40:31.115" endtime="20200629 16:40:31.366" status="PASS"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>Log In</arg>
+</arguments>
+<msg timestamp="20200629 16:40:31.366" level="INFO">Clicking button 'Log In'.</msg>
+<status starttime="20200629 16:40:31.366" endtime="20200629 16:40:31.584" status="PASS"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>zaigham abbas</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200629 16:40:45.813" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status starttime="20200629 16:40:44.717" endtime="20200629 16:40:45.813" status="PASS"></status>
+</kw>
+<msg timestamp="20200629 16:40:45.813" level="FAIL">Text 'zaigham abbas' did not appear in 5 seconds.</msg>
+<status starttime="20200629 16:40:31.584" endtime="20200629 16:40:45.813" status="FAIL"></status>
+</kw>
+<status starttime="20200629 16:39:44.486" endtime="20200629 16:40:45.813" critical="yes" status="FAIL">Text 'zaigham abbas' did not appear in 5 seconds.</status>
+</test>
+<status starttime="20200629 16:35:29.424" endtime="20200629 16:40:45.818" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="2">Critical Tests</stat>
+<stat pass="3" fail="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="2" name="Suite2" id="s1">Suite2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
