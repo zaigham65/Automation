@@ -1,6 +1,6 @@
 *** Settings ***
 Library           SeleniumLibrary
-Resource          Resources/login.robot
+Resource          login.robot
 
 *** Test Cases ***
 tc1
